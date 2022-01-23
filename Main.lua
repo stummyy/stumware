@@ -288,8 +288,8 @@ do -- // Types
         self._props.Visible = false;
         self._props.Position = UDim2.new()
         self._props.AnchorPoint = Vector2.new();
-        self._props.Active = true
-        self._props.Draggable = true
+        self._props.Active = true;
+        self._props.Draggable = true;
         self._props.Size = UDim2.new();
         self._props.BorderSizePixel = 1;
         self._props.BorderColor3 = Color3.fromRGB(27, 42, 53);
@@ -322,7 +322,7 @@ do -- // Types
 
         self._text = Drawing.new('Text');
         self._text.Visible = true;
-        self._props.Text = 2;
+        self._props.Font = 2;
         self._text.Size = 22;
         self._text.Center = true;
         self._text.Text = "Text";
